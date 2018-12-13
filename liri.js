@@ -2,6 +2,7 @@ require("dotenv").config();
 var Spotify = require('node-spotify-api');
 var keys = require('./keys.js');
 var request = require("request");
+var moment = require('moment');
 var args = process.argv;
 
 if (args.length != 4) {
@@ -60,5 +61,35 @@ if (command === "movie-this") {
 
 }
 
+// if (command === "concert-this") {
+   
+//     var artist = process.argv.slice(3).join(" ")
+//     console.log(artist);
+   
+//     var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
+//     request(queryURL, function (error, response, body) {
+        
+//         if (error) {
+//             return console.log('Error occurred: ' + err);
+//         }
+
+//         var result  =  JSON.parse(body)[0];
+
+//         console.log("Venue name " + result.venue.name);
+//         console.log("Venue location " + result.venue.city);
+//         console.log("Date of Event " +  moment(result.datetime).format("MM/DD/YYYY"));
+      
+//     });
+//     // Name of the venue
+//     // Venue location
+//     // Date of the Event (use moment to format this as "MM/DD/YYYY")   
+// } else if ( process.argv[2] == 'spotify-this-song') {
+
+//     var songName = process.argv.slice(3).join(" ");
+
+//     if (songName == undefined) {
+//         songName = "The sign by Ace of Base";
+//     } 
+// }
 
