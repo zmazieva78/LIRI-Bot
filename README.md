@@ -5,15 +5,15 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
-* spotify-this-song  ``` node liri.js spotify-this-song ``` 
+ **spotify-this-song**  ``` node liri.js spotify-this-song ``` 
 - This will show the following information about the song in your terminal/bash window:
     - Artist(s)
     - The song's name
     - A preview link of the song from Spotify
     - The album that the song is from.
 
-* movie-this ``` node liri.js movie-this ```           
-- This will output the following information to your   terminal/bash window:
+ **movie-this** ``` node liri.js movie-this ```           
+- This will output the following information to your terminal/bash window:
 
     - Title of the movie.
     - Year the movie came out.
@@ -24,6 +24,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
     - Plot of the movie.
     - Actors in the movie.
 
-* do-what-it-says node ``` liri.js do-what-it-says ```
+ **do-what-it-says** ``` node liri.js do-what-it-says ```
 
-- Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. -It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt. Feel free to change the text in that document to test out the feature for other commands.
+- Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands. 
+    - It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt. Feel free to change the text in that document to test out the feature for other commands.

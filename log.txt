@@ -1,0 +1,282 @@
+[2018-12-15T19:03:43.262] [INFO] cheese - liri
+[2018-12-15T19:04:26.876] [INFO] default - liri
+[2018-12-15T19:05:04.165] [INFO] liri - liri
+[2018-12-15T19:05:34.886] [INFO] liri - liri
+[2018-12-15T19:10:37.421] [INFO] liri - liri
+[2018-12-15T19:10:37.434] [INFO] liri - Usage:	node liri.js <command> <command-arg>commands:	concert-this	spotify-this-song	movie-this	do-what-it-says
+[2018-12-15T19:11:11.098] [INFO] liri - liri
+[2018-12-15T19:11:11.116] [INFO] liri - Usage:
+	node liri.js <command> <command-arg>
+commands:
+	concert-this
+	spotify-this-song
+	movie-this
+	do-what-it-says
+[2018-12-15T19:17:41.173] [INFO] liri - liri
+[2018-12-15T19:17:41.309] [INFO] liri - 
+=========================================================
+*** movie-this 'The Matrix' ***
+
+Title of the Movie: The Matrix
+Year: 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: [object Object]
+Country: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+[2018-12-15T19:17:41.743] [INFO] liri - 
+=========================================================
+*** concert-this 'Backstreet Boys' ***
+[2018-12-15T19:17:41.755] [INFO] liri - 
+	=================================================
+	Merry Mix Show 2018 featuring Backstreet Boys
+	Cedar Park, TX, United States
+	12/16/2018
+[2018-12-15T19:17:41.757] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/06/2019
+[2018-12-15T19:17:41.758] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/08/2019
+[2018-12-15T19:17:41.759] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/09/2019
+[2018-12-15T19:17:41.759] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/13/2019
+[2018-12-15T19:17:41.760] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/15/2019
+[2018-12-15T19:17:41.761] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/16/2019
+[2018-12-15T19:17:41.762] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/20/2019
+[2018-12-15T19:17:41.763] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/22/2019
+[2018-12-15T19:17:41.763] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/23/2019
+[2018-12-15T19:17:41.771] [INFO] liri - 
+=========================================================
+*** spotify-this 'I Want it That Way' ***
+
+Artist: Backstreet Boys
+Song's Name: I Want It That Way
+Album the Song is From: The Hits--Chapter One
+Preview Link of the Song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=d85cb68e934b4bae8465f95cfb74208d
+[2018-12-15T19:19:49.939] [INFO] liri - liri
+[2018-12-15T19:19:50.391] [INFO] liri - 
+=========================================================
+*** concert-this 'shakira' ***
+[2018-12-15T19:20:14.194] [INFO] liri - liri
+[2018-12-15T19:20:14.761] [INFO] liri - 
+=========================================================
+*** concert-this 'madonna' ***
+[2018-12-15T19:20:45.621] [INFO] liri - liri
+[2018-12-15T19:20:46.030] [INFO] liri - 
+=========================================================
+*** concert-this 'jennifer lopez' ***
+[2018-12-15T19:21:06.772] [INFO] liri - liri
+[2018-12-15T19:21:07.652] [INFO] liri - 
+=========================================================
+*** concert-this 'backstreet boys' ***
+[2018-12-15T19:21:07.665] [INFO] liri - 
+	=================================================
+	Merry Mix Show 2018 featuring Backstreet Boys
+	Cedar Park, TX, United States
+	12/16/2018
+[2018-12-15T19:21:07.667] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/06/2019
+[2018-12-15T19:21:07.667] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/08/2019
+[2018-12-15T19:21:07.668] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/09/2019
+[2018-12-15T19:21:07.669] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/13/2019
+[2018-12-15T19:21:07.670] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/15/2019
+[2018-12-15T19:21:07.671] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/16/2019
+[2018-12-15T19:21:07.672] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/20/2019
+[2018-12-15T19:21:07.673] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/22/2019
+[2018-12-15T19:21:07.673] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/23/2019
+[2018-12-15T19:21:35.380] [INFO] liri - liri
+[2018-12-15T19:21:35.995] [INFO] liri - 
+=========================================================
+*** concert-this 'metalica' ***
+[2018-12-15T19:21:36.004] [INFO] liri - 
+	=================================================
+	The Forum
+	Los Angeles, CA, United States
+	01/16/2019
+[2018-12-15T19:21:36.005] [INFO] liri - 
+	=================================================
+	BOK Center
+	Tulsa, OK, United States
+	01/18/2019
+[2018-12-15T19:21:36.006] [INFO] liri - 
+	=================================================
+	Verizon Arena
+	North Little Rock, AR, United States
+	01/20/2019
+[2018-12-15T19:21:36.007] [INFO] liri - 
+	=================================================
+	Legacy Arena at The BJCC
+	Birmingham, AL, United States
+	01/22/2019
+[2018-12-15T19:21:36.007] [INFO] liri - 
+	=================================================
+	Bridgestone Arena
+	Nashville, TN, United States
+	01/24/2019
+[2018-12-15T19:21:36.008] [INFO] liri - 
+	=================================================
+	PNC Arena
+	Raleigh, NC, United States
+	01/28/2019
+[2018-12-15T19:21:36.009] [INFO] liri - 
+	=================================================
+	U.S. Bank Arena
+	Cincinnati, OH, United States
+	01/30/2019
+[2018-12-15T19:21:36.010] [INFO] liri - 
+	=================================================
+	Quicken Loans Arena
+	Cleveland, OH, United States
+	02/01/2019
+[2018-12-15T19:21:36.011] [INFO] liri - 
+	=================================================
+	Don Haskins Center
+	El Paso, TX, United States
+	02/28/2019
+[2018-12-15T19:21:36.012] [INFO] liri - 
+	=================================================
+	United Supermarkets Arena
+	Lubbock, TX, United States
+	03/02/2019
+[2018-12-15T19:22:37.597] [INFO] liri - liri
+[2018-12-15T19:22:37.746] [INFO] liri - 
+=========================================================
+*** movie-this 'The Matrix' ***
+
+Title of the Movie: The Matrix
+Year: 1999
+IMBD Rating: 8.7
+Rotten Tomatoes Rating: [object Object]
+Country: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+[2018-12-15T19:22:38.037] [INFO] liri - 
+=========================================================
+*** concert-this 'Backstreet Boys' ***
+[2018-12-15T19:22:38.050] [INFO] liri - 
+	=================================================
+	Merry Mix Show 2018 featuring Backstreet Boys
+	Cedar Park, TX, United States
+	12/16/2018
+[2018-12-15T19:22:38.051] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/06/2019
+[2018-12-15T19:22:38.052] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/08/2019
+[2018-12-15T19:22:38.052] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/09/2019
+[2018-12-15T19:22:38.053] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/13/2019
+[2018-12-15T19:22:38.053] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/15/2019
+[2018-12-15T19:22:38.054] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/16/2019
+[2018-12-15T19:22:38.054] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/20/2019
+[2018-12-15T19:22:38.055] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/22/2019
+[2018-12-15T19:22:38.056] [INFO] liri - 
+	=================================================
+	Planet Hollywood Resort & Casino	- Las Vegas
+	Las Vegas, NV, United States
+	02/23/2019
+[2018-12-15T19:22:38.290] [INFO] liri - 
+=========================================================
+*** spotify-this 'I Want it That Way' ***
+
+Artist: Backstreet Boys
+Song's Name: I Want It That Way
+Album the Song is From: The Hits--Chapter One
+Preview Link of the Song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=d85cb68e934b4bae8465f95cfb74208d
