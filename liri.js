@@ -29,23 +29,21 @@ if (command === 'spotify-this-song') {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
-        console.log("=========================================================" + 
-        "\nArtist: " + data.tracks.items[0].artists[0].name +
-        "\nSong's Name: " + data.tracks.items[0].name +
-        "\nAlbum the Song is From: " + data.tracks.items[0].album.name +
-        "\nPreview Link of the Song: " + data.tracks.items[0].preview_url + 
-        "\n=========================================================");        
+        console.log("=========================================================" +
+            "\nArtist: " + data.tracks.items[0].artists[0].name +
+            "\nSong's Name: " + data.tracks.items[0].name +
+            "\nAlbum the Song is From: " + data.tracks.items[0].album.name +
+            "\nPreview Link of the Song: " + data.tracks.items[0].preview_url +
+            "\n=========================================================");
     });
-}
-
-if (command === "movie-this") {
+} else if (command === "movie-this") {
     request("http://www.omdbapi.com/?t=" + command_arg + "&y=&plot=short&apikey=b1f8f1d7", function (error, response, body) {
 
         // If the request is successful (i.e. if the response status code is 200)
         if (!error && response.statusCode === 200) {
 
             // Parse the body of the site and recover the title, year, IMBD rating, Rotten Tomatoes rating, Country, Language, Plot and Actors from the movie
-            console.log("=========================================================" + 
+            console.log("=========================================================" +
                 "\nTitle of the Movie: " + JSON.parse(body).Title +
                 "\nYear: " + JSON.parse(body).Year +
                 "\nIMBD Rating: " + JSON.parse(body).imdbRating +
@@ -59,37 +57,31 @@ if (command === "movie-this") {
         };
     });
 
+} else if (command === "concert-this") {
+    var artist = command_arg
+    console.log(artist);
+
+    var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+
+    request(queryURL, function (error, response, body) {
+
+        if (error) {
+            return console.log('Error occurred: ' + err);
+        }
+
+        var result = JSON.parse(body);
+        // for loop for 10 results and display them
+
+        var maxResults = Math.min(result.length, 10);
+
+        for (var i = 0; i < maxResults; i++) {
+            var current = result[i];
+            var venue = current.venue;
+
+            console.log("=========================================================")
+            console.log(venue.name);
+            console.log(venue.city + ', ' + venue.region + ', ' + venue.country);
+            console.log(moment(current.datetime).format("MM/DD/YYYY"));
+            }
+    });
 }
-
-// if (command === "concert-this") {
-   
-//     var artist = process.argv.slice(3).join(" ")
-//     console.log(artist);
-   
-//     var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
-
-//     request(queryURL, function (error, response, body) {
-        
-//         if (error) {
-//             return console.log('Error occurred: ' + err);
-//         }
-
-//         var result  =  JSON.parse(body)[0];
-
-//         console.log("Venue name " + result.venue.name);
-//         console.log("Venue location " + result.venue.city);
-//         console.log("Date of Event " +  moment(result.datetime).format("MM/DD/YYYY"));
-      
-//     });
-//     // Name of the venue
-//     // Venue location
-//     // Date of the Event (use moment to format this as "MM/DD/YYYY")   
-// } else if ( process.argv[2] == 'spotify-this-song') {
-
-//     var songName = process.argv.slice(3).join(" ");
-
-//     if (songName == undefined) {
-//         songName = "The sign by Ace of Base";
-//     } 
-// }
-
